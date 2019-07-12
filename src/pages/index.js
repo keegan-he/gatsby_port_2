@@ -1,27 +1,27 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import Helmet from 'react-helmet'
-import Waypoint from 'react-waypoint'
-import Layout from '../components/layout'
-import Header from '../components/Header'
-import Nav from '../components/Nav'
-import Keegpic from '../assets/images/avatar.jpg'
+import React from 'react';
+import { Link } from 'gatsby';
+import Helmet from 'react-helmet';
+import Waypoint from 'react-waypoint';
+import Layout from '../components/layout';
+import Header from '../components/Header';
+import Nav from '../components/Nav';
+import Keegpic from '../assets/images/avatar.jpg';
 
 class Index extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
-      stickyNav: false,
-    }
+      stickyNav: false
+    };
   }
 
   _handleWaypointEnter = () => {
-    this.setState(() => ({ stickyNav: false }))
-  }
+    this.setState(() => ({ stickyNav: false }));
+  };
 
   _handleWaypointLeave = () => {
-    this.setState(() => ({ stickyNav: true }))
-  }
+    this.setState(() => ({ stickyNav: true }));
+  };
 
   render() {
     return (
@@ -103,6 +103,43 @@ class Index extends React.Component {
               </li>
             </ul>
 
+            <ul className="features">
+              <li>
+                <span className="icon major style1 fa-server"></span>
+                <h3>Project 1</h3>
+
+                <p>
+                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
+                  consequat tempus veroeros sed consequat.
+                </p>
+                <Link to="/generic" className="button">
+                  Learn More
+                </Link>
+              </li>
+              <li>
+                <span className="icon major style3 fa-database"></span>
+                <h3>Project 2</h3>
+                <p>
+                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
+                  consequat tempus veroeros sed consequat.
+                </p>
+                <Link to="/generic" className="button">
+                  Learn More
+                </Link>
+              </li>
+              <li>
+                <span className="icon major style5 fa-save"></span>
+                <h3>Project 3</h3>
+                <p>
+                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
+                  consequat tempus veroeros sed consequat.
+                </p>
+                <Link to="/generic" className="button">
+                  Learn More
+                </Link>
+              </li>
+            </ul>
+
             <footer className="major">
               <ul className="actions">
                 <li></li>
@@ -111,8 +148,8 @@ class Index extends React.Component {
           </section>
         </div>
       </Layout>
-    )
+    );
   }
 }
 
-export default Index
+export default Index;
