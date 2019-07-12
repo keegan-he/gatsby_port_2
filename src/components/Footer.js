@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from 'react';
+import { Link } from 'gatsby';
 
 const Footer = props => (
   <footer id="footer">
@@ -14,7 +14,7 @@ const Footer = props => (
       </ul>
     </section>
     <section>
-      <h2>Contact information:</h2>
+      <h2>Contact:</h2>
       <dl className="alt">
         <dt>Address</dt>
         <dd>Parker St &bull; Berkeley, CA 94703 &bull; USA</dd>
@@ -63,6 +63,6 @@ const Footer = props => (
       </ul>
     </section>
   </footer>
-)
+);
 
-export default Footer
+export default Footer;
