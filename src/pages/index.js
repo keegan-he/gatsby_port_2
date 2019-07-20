@@ -6,7 +6,6 @@ import Layout from '../components/layout';
 import Header from '../components/Header';
 import Nav from '../components/Nav';
 import Keegpic from '../assets/images/avatar.jpg';
-import Project1 from '../assets/images/movie_watchlist.png';
 
 class Index extends React.Component {
   constructor(props) {
@@ -108,7 +107,6 @@ class Index extends React.Component {
               <li>
                 <span className="icon major style1 fa-server"></span>
                 <h3>Project 1</h3>
-
                 <p>
                   Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
                   consequat tempus veroeros sed consequat.
