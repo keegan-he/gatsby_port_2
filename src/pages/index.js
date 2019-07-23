@@ -70,15 +70,16 @@ class Index extends React.Component {
             <ul className="features">
               <li>
                 <img
-                  className="hvr-grow"
+                  className="Project-image"
                   src="https://i.imgur.com/NPTQ1Hv.jpg"
                   alt="Project 1"
                 />
 
-                <h3>Project 1</h3>
+                <h3>Static Site Generator</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Using the Django web framework I built this static site
+                  generator using Python, CSS, HTML and Jinja2. When you run
+                  build it will generate the
                 </p>
                 <Link to="/generic" className="button">
                   Learn More
@@ -90,10 +91,11 @@ class Index extends React.Component {
                   src="https://i.imgur.com/NPTQ1Hv.jpg"
                   alt="Project 2"
                 />
-                <h3>Project 2</h3>
+                <h3>Ayee Emm Dee Bee Watchlist</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Built using the MERN stack. This app sucks in data from The
+                  Movie DB and allows you to save your additions to a watch
+                  list.
                 </p>
                 <Link to="/generic" className="button">
                   Learn More
@@ -105,10 +107,11 @@ class Index extends React.Component {
                   src="https://i.imgur.com/NPTQ1Hv.jpg"
                   alt="Project 3"
                 />
-                <h3>Project 3</h3>
+                <h3>Snowcrash Chapters CSS</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Having been obsessed with Snow Crash I wanted to practice my
+                  CSS to create a fun way to stylizing the first chapter of the
+                  famous Cyber Punk novel.
                 </p>
                 <Link to="/generic" className="button">
                   Learn More
@@ -123,10 +126,11 @@ class Index extends React.Component {
                   src="https://i.imgur.com/NPTQ1Hv.jpg"
                   alt="Project 3"
                 />
-                <h3>Project 1</h3>
+                <h3>Group Meet</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Front-End project using the boostrap framework. Eventually I
+                  will add this to a Django project and it will be social app
+                  for meeting people with similar interests.
                 </p>
                 <Link to="/generic" className="button">
                   Learn More
@@ -138,10 +142,10 @@ class Index extends React.Component {
                   src="https://i.imgur.com/NPTQ1Hv.jpg"
                   alt="Project 3"
                 />
-                <h3>Project 2</h3>
+                <h3>Cyberpunk Quiz in React</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Using React I wanted to create an app that would help me
+                  understand how state is passed around the front end.
                 </p>
                 <Link to="/generic" className="button">
                   Learn More
