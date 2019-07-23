@@ -1,6 +1,7 @@
 .Project-image {
-    width: 50%;
+    width: 70%;
     padding: .5vh;
+    border-radius: 15px;
 }
 
 /*hover tricks https://github.com/IanLunn/Hover/blob/master/README.md#hovercss- */
