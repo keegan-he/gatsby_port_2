@@ -69,9 +69,9 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-server"></span>
-                <h3>Project 1</h3>
+              <img className="Project-image" src="https://i.imgur.com/NPTQ1Hv.jpg" alt="Project 1" />
 
+                <h3>Project 1</h3>
                 <p>
                   Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
                   consequat tempus veroeros sed consequat.
@@ -81,7 +81,7 @@ class Index extends React.Component {
                 </Link>
               </li>
               <li>
-                <span className="icon major style3 fa-database"></span>
+              <img className="Project-image" src="https://i.imgur.com/NPTQ1Hv.jpg" alt="Project 2" />
                 <h3>Project 2</h3>
                 <p>
                   Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
@@ -92,7 +92,7 @@ class Index extends React.Component {
                 </Link>
               </li>
               <li>
-                <span className="icon major style5 fa-save"></span>
+              <img className="Project-image" src="https://i.imgur.com/NPTQ1Hv.jpg" alt="Project 3" />
                 <h3>Project 3</h3>
                 <p>
                   Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
