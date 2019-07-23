@@ -6,6 +6,7 @@ import Layout from '../components/layout';
 import Header from '../components/Header';
 import Nav from '../components/Nav';
 import Keegpic from '../assets/images/avatar.jpg';
+import './index.css';
 
 class Index extends React.Component {
   constructor(props) {
