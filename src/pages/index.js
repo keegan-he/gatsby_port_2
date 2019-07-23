@@ -70,7 +70,7 @@ class Index extends React.Component {
             <ul className="features">
               <li>
                 <img
-                  className="Project-image"
+                  className="hvr-grow"
                   src="https://i.imgur.com/NPTQ1Hv.jpg"
                   alt="Project 1"
                 />
