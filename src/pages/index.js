@@ -128,9 +128,10 @@ class Index extends React.Component {
                 />
                 <h3>Group Meet</h3>
                 <p>
-                  Front-End project using the boostrap framework. Eventually I
-                  will add this to a Django project and it will be social app
-                  for meeting people with similar interests.
+                  Front-End project using the boostrap framework and lots of
+                  different CSS techniques. Eventually I will add this to a
+                  Django project and it will be social app for meeting people
+                  with similar interests.
                 </p>
                 <Link to="/generic" className="button">
                   Learn More
@@ -145,7 +146,9 @@ class Index extends React.Component {
                 <h3>Cyberpunk Quiz in React</h3>
                 <p>
                   Using React I wanted to create an app that would help me
-                  understand how state is passed around the front end.
+                  understand how state is passed around the front end. I thought
+                  what better way than to create a quiz to test your Cyberpunk
+                  knowledge.
                 </p>
                 <Link to="/generic" className="button">
                   Learn More
@@ -157,10 +160,12 @@ class Index extends React.Component {
                   src="https://i.imgur.com/NPTQ1Hv.jpg"
                   alt="Project 3"
                 />
-                <h3>Project 3</h3>
+                <h3>Github Search</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Find your favorite people to follow on github by searching
+                  usernames. This app interacts with Githubs API to find
+                  relevant users. This was built using react to practice
+                  fetching data from an API.
                 </p>
                 <Link to="/generic" className="button">
                   Learn More
