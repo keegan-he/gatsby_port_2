@@ -69,7 +69,11 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-              <img className="Project-image" src="https://i.imgur.com/NPTQ1Hv.jpg" alt="Project 1" />
+                <img
+                  className="Project-image"
+                  src="https://i.imgur.com/NPTQ1Hv.jpg"
+                  alt="Project 1"
+                />
 
                 <h3>Project 1</h3>
                 <p>
@@ -81,7 +85,11 @@ class Index extends React.Component {
                 </Link>
               </li>
               <li>
-              <img className="Project-image" src="https://i.imgur.com/NPTQ1Hv.jpg" alt="Project 2" />
+                <img
+                  className="Project-image"
+                  src="https://i.imgur.com/NPTQ1Hv.jpg"
+                  alt="Project 2"
+                />
                 <h3>Project 2</h3>
                 <p>
                   Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
@@ -92,7 +100,11 @@ class Index extends React.Component {
                 </Link>
               </li>
               <li>
-              <img className="Project-image" src="https://i.imgur.com/NPTQ1Hv.jpg" alt="Project 3" />
+                <img
+                  className="Project-image"
+                  src="https://i.imgur.com/NPTQ1Hv.jpg"
+                  alt="Project 3"
+                />
                 <h3>Project 3</h3>
                 <p>
                   Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
@@ -106,7 +118,11 @@ class Index extends React.Component {
 
             <ul className="features">
               <li>
-              <img className="Project-image" src="https://i.imgur.com/NPTQ1Hv.jpg" alt="Project 3" />
+                <img
+                  className="Project-image"
+                  src="https://i.imgur.com/NPTQ1Hv.jpg"
+                  alt="Project 3"
+                />
                 <h3>Project 1</h3>
                 <p>
                   Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
@@ -117,7 +133,11 @@ class Index extends React.Component {
                 </Link>
               </li>
               <li>
-              <img className="Project-image" src="https://i.imgur.com/NPTQ1Hv.jpg" alt="Project 3" />
+                <img
+                  className="Project-image"
+                  src="https://i.imgur.com/NPTQ1Hv.jpg"
+                  alt="Project 3"
+                />
                 <h3>Project 2</h3>
                 <p>
                   Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
@@ -128,7 +148,11 @@ class Index extends React.Component {
                 </Link>
               </li>
               <li>
-              <img className="Project-image" src="https://i.imgur.com/NPTQ1Hv.jpg" alt="Project 3" />
+                <img
+                  className="Project-image"
+                  src="https://i.imgur.com/NPTQ1Hv.jpg"
+                  alt="Project 3"
+                />
                 <h3>Project 3</h3>
                 <p>
                   Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
