@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-import logo from '../assets/images/simulation.svg'
+import logo from '../assets/images/simulation.svg';
 
 const Header = props => (
   <header id="header" className="alt">
@@ -9,6 +9,42 @@ const Header = props => (
     </span>
     <h1>Keegan Helmbrecht</h1>
     <h2>Full Stack Developer in the Bay Area</h2>
+    <ul className="icons">
+      <li>
+        <a
+          href="https://www.linkedin.com/in/keegan-helmbrecht/"
+          className="icon fa-linkedin alt"
+        >
+          <span className="label">LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.facebook.com/verbala"
+          className="icon fa-facebook alt"
+        >
+          <span className="label">Facebook</span>
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.instagram.com/verbala/"
+          className="icon fa-instagram alt"
+        >
+          <span className="label">Instagram</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/keegan-he" className="icon fa-github alt">
+          <span className="label">Keeg's GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" className="icon fa-dribbble alt">
+          <span className="label">Dribbble</span>
+        </a>
+      </li>
+    </ul>
     <p>
       Technical Expertise:
       <br />
@@ -19,6 +55,6 @@ const Header = props => (
       <br />
     </p>
   </header>
-)
+);
 
-export default Header
+export default Header;

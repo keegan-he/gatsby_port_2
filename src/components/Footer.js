@@ -4,6 +4,7 @@ import { Link } from 'gatsby';
 const Footer = props => (
   <footer id="footer">
     <section>
+    
       <h2>Thank you for stopping by!</h2>
       <p>
         If you have any questions or if there's anything I can help you with
