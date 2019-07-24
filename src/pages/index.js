@@ -88,7 +88,7 @@ class Index extends React.Component {
                   src="https://i.imgur.com/NPTQ1Hv.jpg"
                   alt="Project 2"
                 />
-                <h3>Ayee Emm Dee Bee Watchlist</h3>
+                <h3>AyeeEmmDeeBee To-Do Watchlist</h3>
                 <p>
                   Built using the MERN stack. This app sucks in data from The
                   Movie DB and allows you to save your additions to a watch
