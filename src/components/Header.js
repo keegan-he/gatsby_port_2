@@ -1,6 +1,6 @@
 import React from 'react';
 
-import logo from '../assets/images/simulation.svg';
+import logo from '../assets/images/robotinside.svg';
 
 const Header = props => (
   <header id="header" className="alt">
