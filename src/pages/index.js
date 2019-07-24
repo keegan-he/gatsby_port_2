@@ -70,17 +70,13 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <img
-                  className="Project-image"
-                  src={Proj1}
-                  alt="Project 1"
-                />
+                <img className="Project-image" src={Proj1} alt="Project 1" />
 
                 <h3>Static Site Generator</h3>
                 <p>
                   Using the Django web framework I built this static site
-                  generator using Python, CSS, HTML and Jinja2. When you run
-                  build it will generate the
+                  generator using Python, CSS, HTML and Jinja2. Run build.py and
+                  combine your content and template.
                 </p>
                 <Link to="/generic" className="button">
                   Learn More
