@@ -75,11 +75,7 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <img
-                  className="Project-image"
-                  src={Ssg}
-                  alt="Project 1"
-                />
+                <img className="Project-image" src={Ssg} alt="Project 1" />
 
                 <h3>Static Site Generator</h3>
                 <p>
@@ -106,7 +102,7 @@ class Index extends React.Component {
               <li>
                 <img
                   className="Project-image"
-                  src="https://i.imgur.com/NPTQ1Hv.jpg"
+                  src={Snowcrash}
                   alt="Project 3"
                 />
                 <h3>Snowcrash Chapters CSS</h3>
@@ -125,7 +121,7 @@ class Index extends React.Component {
               <li>
                 <img
                   className="Project-image"
-                  src="https://i.imgur.com/NPTQ1Hv.jpg"
+                  src={Groupmeet}
                   alt="Project 3"
                 />
                 <h3>Group Meet</h3>
