@@ -8,9 +8,9 @@ import Nav from '../components/Nav';
 import Keegpic from '../assets/images/avatar.jpg';
 import './index.css';
 import Groupmeet from '../assets/projects/login_demo.png';
-import Proj2 from '../assets/projects/eunisite.png';
+import Euni from '../assets/projects/eunisite.png';
 import Movie from '../assets/projects/movie.png';
-import Proj4 from '../assets/projects/reactquiz.png';
+import Reactquiz from '../assets/projects/reactquiz.png';
 import Snowcrash from '../assets/projects/snowcrash.png';
 import Ssg from '../assets/projects/ssg.png';
 
@@ -138,7 +138,7 @@ class Index extends React.Component {
               <li>
                 <img
                   className="Project-image"
-                  src="https://i.imgur.com/NPTQ1Hv.jpg"
+                  src={Reactquiz}
                   alt="Project 3"
                 />
                 <h3>Cyberpunk Quiz in React</h3>
@@ -153,18 +153,9 @@ class Index extends React.Component {
                 </Link>
               </li>
               <li>
-                <img
-                  className="Project-image"
-                  src="https://i.imgur.com/NPTQ1Hv.jpg"
-                  alt="Project 3"
-                />
-                <h3>Github Search</h3>
-                <p>
-                  Find your favorite people to follow on github by searching
-                  usernames. This app interacts with Githubs API to find
-                  relevant users. This was built using react to practice
-                  fetching data from an API.
-                </p>
+                <img className="Project-image" src={Euni} alt="Project 3" />
+                <h3>UX Portfolio</h3>
+                <p>Built for the all mighty UX writer and designer, Euni G.</p>
                 <Link to="/generic" className="button">
                   Learn More
                 </Link>
