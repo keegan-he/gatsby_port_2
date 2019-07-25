@@ -155,7 +155,12 @@ class Index extends React.Component {
               <li>
                 <img className="Project-image" src={Euni} alt="Project 3" />
                 <h3>UX Portfolio</h3>
-                <p>Built for the all mighty UX writer and designer, Euni G.</p>
+                <p>
+                  Built for the all mighty UX writer and designer, Euni G. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Illo minima
+                  officia harum necessitatibus, veniam ex suscipit corporis
+                  sint, voluptatibus ullam repellat cumque ut dolorum voluptas.
+                </p>
                 <Link to="/generic" className="button">
                   Learn More
                 </Link>
