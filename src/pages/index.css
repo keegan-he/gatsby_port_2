@@ -1,6 +1,7 @@
 .Project-image {
     width: 70%;
-    padding: .5vh;
+    padding: .1vh;
+    margin: 1vh;
     border-radius: 15px;
     -webkit-box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.38);
     -moz-box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.38);
