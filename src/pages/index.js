@@ -7,7 +7,9 @@ import Header from '../components/Header';
 import Nav from '../components/Nav';
 import Keegpic from '../assets/images/avatar.jpg';
 import './index.css';
-import Proj1 from '../assets/images/login_demo.png';
+import Proj1 from '../assets/projects/login_demo.png';
+import Proj2 from '../assets/projects/eunisite.png';
+import Proj3 from '../assets/projects/movie.png';
 
 class Index extends React.Component {
   constructor(props) {
