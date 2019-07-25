@@ -7,11 +7,12 @@ import Header from '../components/Header';
 import Nav from '../components/Nav';
 import Keegpic from '../assets/images/avatar.jpg';
 import './index.css';
-import Proj1 from '../assets/projects/login_demo.png';
+import Groupmeet from '../assets/projects/login_demo.png';
 import Proj2 from '../assets/projects/eunisite.png';
 import Proj3 from '../assets/projects/movie.png';
-import Proj4 from '../assets/projects/reactquiz.png'
-import Proj5 from '../assets/projects/snowcrash.png'
+import Proj4 from '../assets/projects/reactquiz.png';
+import Proj5 from '../assets/projects/snowcrash.png';
+import Proj6 from '../assets/projects/ssg.png';
 
 class Index extends React.Component {
   constructor(props) {
@@ -74,7 +75,11 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <img className="Project-image" src={Proj1} alt="Project 1" />
+                <img
+                  className="Project-image"
+                  src={Groupmeet}
+                  alt="Project 1"
+                />
 
                 <h3>Static Site Generator</h3>
                 <p>
@@ -87,11 +92,7 @@ class Index extends React.Component {
                 </Link>
               </li>
               <li>
-                <img
-                  className="Project-image"
-                  src={Proj2}
-                  alt="Project 2"
-                />
+                <img className="Project-image" src={Proj2} alt="Project 2" />
                 <h3>AyeeEmmDeeBee To-Do Watchlist</h3>
                 <p>
                   Built using the MERN stack. This app sucks in data from The
