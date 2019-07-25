@@ -10,6 +10,8 @@ import './index.css';
 import Proj1 from '../assets/projects/login_demo.png';
 import Proj2 from '../assets/projects/eunisite.png';
 import Proj3 from '../assets/projects/movie.png';
+import Proj4 from '../assets/projects/reactquiz.png'
+import Proj5 from '../assets/projects/snowcrash.png'
 
 class Index extends React.Component {
   constructor(props) {
