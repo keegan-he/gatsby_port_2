@@ -89,7 +89,7 @@ class Index extends React.Component {
               <li>
                 <img
                   className="Project-image"
-                  src="https://i.imgur.com/NPTQ1Hv.jpg"
+                  src={Proj2}
                   alt="Project 2"
                 />
                 <h3>AyeeEmmDeeBee To-Do Watchlist</h3>
