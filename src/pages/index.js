@@ -83,7 +83,7 @@ class Index extends React.Component {
                   generator using Python, CSS, HTML and Jinja2. Run build.py and
                   combine your content with templates to create static pages.
                 </p>
-                <Link to="/generic" className="button">
+                <Link to="/ssg" className="button">
                   Learn More
                 </Link>
               </li>
@@ -131,7 +131,7 @@ class Index extends React.Component {
                   Jinja2 templating so I am working to refactor it into the
                   Model where it belongs. :)
                 </p>
-                <Link to="/generic" className="button">
+                <Link to="/music" className="button">
                   Learn More
                 </Link>
               </li>

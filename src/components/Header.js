@@ -39,19 +39,14 @@ const Header = props => (
           <span className="label">Keeg's GitHub</span>
         </a>
       </li>
-      <li>
-        <a href="#" className="icon fa-dribbble alt">
-          <span className="label">Dribbble</span>
-        </a>
-      </li>
     </ul>
     <p>
-      Technical Expertise:
+      Technical Skills:
       <br />
-      Python - React.js - JavaScript (ES6) - HTML / CSS - Django - Postgres SQL
-      - Bash - Git - Pipenv - React Router - FlexBox & Grid - BEM - MVC - OOP -
-      API engineering - ORM - OOP - Static Site Generation - SPA (Single Page
-      Apps) - Webpack - Test Driven Development - Bootstrap - Agile
+      Python - React.js - JavaScript (ES6) - HTML / CSS - Django - Gatsby -
+      Postgres SQL - Bash - Git - Pipenv - React Router - FlexBox & Grid - BEM -
+      MVC - OOP - API engineering - ORM - OOP - Static Site Generation - SPA
+      (Single Page Apps) - Webpack - Test Driven Development - Bootstrap - Agile
       <br />
     </p>
   </header>
