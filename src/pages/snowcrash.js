@@ -17,9 +17,13 @@ class Generic extends React.Component {
               <img src={snowcrash} alt="" />
             </span>
             <h2>Snowcrash Chapters!</h2>
-            <p>Github Link: https://github.com/keegan-he/snowcrash_chapters </p>
             <p>
-              Live Project: https://keegan-he.github.io/snowcrash_chapters/{' '}
+              Code:{' '}
+              <a href="https://github.com/keegan-he/snowcrash_chapters">Here</a>
+            </p>
+            <p>
+              Live Project:{' '}
+              <a href="https://keegan-he.github.io/snowcrash_chapters/">Here</a>
             </p>
             <h2>Learnings</h2>
             <p>TBC!</p>
