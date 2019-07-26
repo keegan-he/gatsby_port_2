@@ -27,8 +27,8 @@ class Generic extends React.Component {
               Live Project:{' '}
               <a href="https://protected-retreat-68530.herokuapp.com/">Here</a>
             </p>
-            <h2>Learnings</h2>
-            <p>TBC!</p>
+            <h2>Learnings:</h2>
+            <p>First time making CRUD app with MongoDB.</p>
           </section>
         </div>
       </Layout>
