@@ -18,7 +18,10 @@ class Generic extends React.Component {
             </span>
             <h2>React Cyberpunk Quiz</h2>
             <p>Github Link: https://github.com/keegan-he/react-cyber-quiz </p>
-            <p>Live Project: update coming soon!</p>
+            <p>
+              Live Project: update coming soon! Until then, feel free to clone
+              repo and npm start :P{' '}
+            </p>
             <h2>Learnings</h2>
             <p>TBC!</p>
           </section>
