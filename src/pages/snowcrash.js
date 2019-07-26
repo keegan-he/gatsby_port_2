@@ -9,7 +9,7 @@ class Generic extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="Generic Page Title" />
+        <Helmet title="Snowcrash Chapter" />
         <HeaderGeneric />
         <div id="main">
           <section id="content" className="main">
@@ -17,8 +17,10 @@ class Generic extends React.Component {
               <img src={pic04} alt="" />
             </span>
             <h2>Snowcrash Chapters!</h2>
-            <p>Github Link: </p>
-            <p>Live Project:</p>
+            <p>Github Link: https://github.com/keegan-he/snowcrash_chapters </p>
+            <p>
+              Live Project: https://keegan-he.github.io/snowcrash_chapters/{' '}
+            </p>
             <h2>Learnings</h2>
             <p>TBC!</p>
           </section>

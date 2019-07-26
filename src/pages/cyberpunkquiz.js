@@ -17,8 +17,8 @@ class Generic extends React.Component {
               <img src={pic04} alt="" />
             </span>
             <h2>React Cyberpunk Quiz</h2>
-            <p>Github Link: </p>
-            <p>Live Project:</p>
+            <p>Github Link: https://github.com/keegan-he/react-cyber-quiz </p>
+            <p>Live Project: update coming soon!</p>
             <h2>Learnings</h2>
             <p>TBC!</p>
           </section>

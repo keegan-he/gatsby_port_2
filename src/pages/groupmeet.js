@@ -9,7 +9,7 @@ class Generic extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="Generic Page Title" />
+        <Helmet title="Group Meet" />
         <HeaderGeneric />
         <div id="main">
           <section id="content" className="main">

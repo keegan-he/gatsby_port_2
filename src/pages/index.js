@@ -111,7 +111,7 @@ class Index extends React.Component {
                   CSS to create a fun way to stylize the first chapter of my
                   favorite Cyber Punk novel by Neal Stphenson. This was fun!
                 </p>
-                <Link to="/generic" className="button">
+                <Link to="/snowcrash" className="button">
                   Learn More
                 </Link>
               </li>
@@ -131,7 +131,7 @@ class Index extends React.Component {
                   Jinja2 templating so I am working to refactor it into the
                   Model where it belongs. :)
                 </p>
-                <Link to="/music" className="button">
+                <Link to="/groupmeet" className="button">
                   Learn More
                 </Link>
               </li>
@@ -148,7 +148,7 @@ class Index extends React.Component {
                   what better way than to create a quiz to test your Cyberpunk
                   knowledge.
                 </p>
-                <Link to="/generic" className="button">
+                <Link to="/cyberpunkquiz" className="button">
                   Learn More
                 </Link>
               </li>
@@ -161,7 +161,7 @@ class Index extends React.Component {
                   adipisicing elit. Illo minima officia harum necessitatibus,
                   veniam ex suscipit corporis sint.
                 </p>
-                <Link to="/generic" className="button">
+                <Link to="/euni" className="button">
                   Learn More
                 </Link>
               </li>
