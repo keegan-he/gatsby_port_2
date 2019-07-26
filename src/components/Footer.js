@@ -26,42 +26,6 @@ const Footer = props => (
           <a href="#">keeganslane@gmail.com</a>
         </dd>
       </dl>
-      <ul className="icons">
-        <li>
-          <a
-            href="https://www.linkedin.com/in/keegan-helmbrecht/"
-            className="icon fa-linkedin alt"
-          >
-            <span className="label">LinkedIn</span>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.facebook.com/verbala"
-            className="icon fa-facebook alt"
-          >
-            <span className="label">Facebook</span>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.instagram.com/verbala/"
-            className="icon fa-instagram alt"
-          >
-            <span className="label">Instagram</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/keegan-he" className="icon fa-github alt">
-            <span className="label">Keeg's GitHub</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" className="icon fa-dribbble alt">
-            <span className="label">Dribbble</span>
-          </a>
-        </li>
-      </ul>
     </section>
   </footer>
 );
