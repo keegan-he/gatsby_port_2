@@ -52,12 +52,12 @@ class Index extends React.Component {
                 <p>
                   Throughout my life, I've had many varied passions and
                   interests, usually centered around art and technology. I went
-                  to my first Defcon as a 13 year old, I love Linux like an old
-                  friend and took that passion into studying Information
-                  Networking, Telecommunications, and Information Security. I
-                  now work in the Bay Area, for the art e-commerce website,
-                  Redbubble, specifically in the field of Intellectual Property
-                  and Licensing.
+                  to my first Defcon as a 13 year old and I love Linux like an
+                  old friend. I took my passion for phone phreaking and system
+                  exploits to studying Information Networking and
+                  Telecommunications in college. I now work in the Bay Area, for
+                  the art e-commerce website, Redbubble, specifically in the
+                  field of Intellectual Property and Licensing.
                 </p>
                 <ul className="actions">
                   <li></li>
@@ -81,7 +81,7 @@ class Index extends React.Component {
                 <p>
                   Using the Django web framework I built this static site
                   generator using Python, CSS, HTML and Jinja2. Run build.py and
-                  combine your content and template.
+                  combine your content with templates to create static pages.
                 </p>
                 <Link to="/generic" className="button">
                   Learn More
@@ -91,9 +91,9 @@ class Index extends React.Component {
                 <img className="Project-image" src={Movie} alt="Project 2" />
                 <h3>AyeeEmmDeeBee To-Do Watchlist</h3>
                 <p>
-                  Built using the MERN stack. This app sucks in data from The
-                  Movie DB and allows you to save your additions to a watch
-                  list.
+                  Built using the MERN stack. This app fetches in data from The
+                  Movie DB API and allows you to save your additions to a watch
+                  list via MongoDB.
                 </p>
                 <Link to="/generic" className="button">
                   Learn More
@@ -108,8 +108,8 @@ class Index extends React.Component {
                 <h3>Snowcrash Chapters CSS</h3>
                 <p>
                   Having been obsessed with Snow Crash I wanted to practice my
-                  CSS to create a fun way to stylizing the first chapter of the
-                  famous Cyber Punk novel.
+                  CSS to create a fun way to stylize the first chapter of my
+                  favorite Cyber Punk novel by Neal Stphenson. This was fun!
                 </p>
                 <Link to="/generic" className="button">
                   Learn More
@@ -126,10 +126,10 @@ class Index extends React.Component {
                 />
                 <h3>Group Meet</h3>
                 <p>
-                  Front-End project using the boostrap framework and lots of
-                  different CSS techniques. Eventually I will add this to a
-                  Django project and it will be social app for meeting people
-                  with similar interests.
+                  This is a Django app that I worked on with some friends. I did
+                  the front end and we put a lot of business logic into my
+                  Jinja2 templating so I am working to refactor it into the
+                  Model where it belongs. :)
                 </p>
                 <Link to="/generic" className="button">
                   Learn More
