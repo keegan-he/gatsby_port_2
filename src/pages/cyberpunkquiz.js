@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 
 import Layout from '../components/layout';
 import HeaderGeneric from '../components/HeaderGeneric';
-import pic04 from '../assets/images/pic04.jpg';
+import reactquiz from '../assets/projects/reactquiz.png';
 
 class Generic extends React.Component {
   render() {
@@ -14,7 +14,7 @@ class Generic extends React.Component {
         <div id="main">
           <section id="content" className="main">
             <span className="image main">
-              <img src={pic04} alt="" />
+              <img src={reactquiz} alt="" />
             </span>
             <h2>React Cyberpunk Quiz</h2>
             <p>Github Link: https://github.com/keegan-he/react-cyber-quiz </p>
