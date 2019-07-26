@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 
 import Layout from '../components/layout';
 import HeaderGeneric from '../components/HeaderGeneric';
-import pic04 from '../assets/images/pic04.jpg';
+import Groupmeet from '../assets/pages/signup_demo.png';
 
 class Generic extends React.Component {
   render() {
@@ -14,13 +14,13 @@ class Generic extends React.Component {
         <div id="main">
           <section id="content" className="main">
             <span className="image main">
-              <img src={pic04} alt="" />
+              <img src={Groupmeet} alt="" />
             </span>
             <h2>Group Meet - Connect to people with similar interests!</h2>
-            <p>Github Link: </p>
-            <p>Live Project:</p>
-            <h2>Learnings</h2>
-            <p>TBC!</p>
+            <p>Github Link: will post the django project soon!</p>
+            <p>Live Project: ''</p>
+            <h2>Learnings:</h2>
+            <p>Coming Sooon!</p>
           </section>
         </div>
       </Layout>
