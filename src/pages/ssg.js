@@ -19,11 +19,13 @@ class Generic extends React.Component {
             <h2>Static Site Generator Info!</h2>
             <p>
               Github Link:
-              https://github.com/keegan-he/2nd_refactor_ssg_site_generator
+              <a href="https://github.com/keegan-he/2nd_refactor_ssg_site_generator">
+                Here
+              </a>
             </p>
             <p>
-              Live Project: its on heroku, I'm embaressed to share the link
-              before I change the content. COMING SOON!{' '}
+              Live Project: On heroku, I'm embaressed to share the link before I
+              change the content. COMING SOON!{' '}
             </p>
             <h2>Learnings</h2>
             <p>TBC!</p>
