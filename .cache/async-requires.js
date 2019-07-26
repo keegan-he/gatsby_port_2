@@ -11,6 +11,8 @@ exports.components = {
   "component---src-pages-ssg-js": () => import("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/ssg.js" /* webpackChunkName: "component---src-pages-ssg-js" */),
   "component---src-pages-movie-js": () => import("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/movie.js" /* webpackChunkName: "component---src-pages-movie-js" */),
   "component---src-pages-snowcrash-js": () => import("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/snowcrash.js" /* webpackChunkName: "component---src-pages-snowcrash-js" */),
-  "component---src-pages-groupmeet-js": () => import("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/groupmeet.js" /* webpackChunkName: "component---src-pages-groupmeet-js" */)
+  "component---src-pages-groupmeet-js": () => import("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/groupmeet.js" /* webpackChunkName: "component---src-pages-groupmeet-js" */),
+  "component---src-pages-cyberpunkquiz-js": () => import("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/cyberpunkquiz.js" /* webpackChunkName: "component---src-pages-cyberpunkquiz-js" */),
+  "component---src-pages-euni-js": () => import("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/euni.js" /* webpackChunkName: "component---src-pages-euni-js" */)
 }
 

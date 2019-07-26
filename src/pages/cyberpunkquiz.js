@@ -9,16 +9,16 @@ class Generic extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="Generic Page Title" />
+        <Helmet title="Get your Cyber Punk on!" />
         <HeaderGeneric />
         <div id="main">
           <section id="content" className="main">
             <span className="image main">
               <img src={pic04} alt="" />
             </span>
-            <h2>AyeeEmmDeeBee Movie App Watchlist!</h2>
+            <h2>React Cyberpunk Quiz</h2>
             <p>Github Link: </p>
-            <p>Live Project: https://protected-retreat-68530.herokuapp.com/</p>
+            <p>Live Project:</p>
             <h2>Learnings</h2>
             <p>TBC!</p>
           </section>

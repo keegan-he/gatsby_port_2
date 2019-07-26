@@ -14,6 +14,8 @@ exports.components = {
   "component---src-pages-ssg-js": hot(preferDefault(require("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/ssg.js"))),
   "component---src-pages-movie-js": hot(preferDefault(require("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/movie.js"))),
   "component---src-pages-snowcrash-js": hot(preferDefault(require("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/snowcrash.js"))),
-  "component---src-pages-groupmeet-js": hot(preferDefault(require("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/groupmeet.js")))
+  "component---src-pages-groupmeet-js": hot(preferDefault(require("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/groupmeet.js"))),
+  "component---src-pages-cyberpunkquiz-js": hot(preferDefault(require("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/cyberpunkquiz.js"))),
+  "component---src-pages-euni-js": hot(preferDefault(require("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/euni.js")))
 }
 
