@@ -95,7 +95,7 @@ class Index extends React.Component {
                   Movie DB API and allows you to save your additions to a watch
                   list via MongoDB.
                 </p>
-                <Link to="/generic" className="button">
+                <Link to="/movie" className="button">
                   Learn More
                 </Link>
               </li>

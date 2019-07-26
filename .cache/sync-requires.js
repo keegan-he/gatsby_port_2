@@ -11,6 +11,9 @@ exports.components = {
   "component---src-pages-index-js": hot(preferDefault(require("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/index.js"))),
   "component---src-pages-music-js": hot(preferDefault(require("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/music.js"))),
   "component---src-pages-photography-js": hot(preferDefault(require("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/photography.js"))),
-  "component---src-pages-ssg-js": hot(preferDefault(require("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/ssg.js")))
+  "component---src-pages-ssg-js": hot(preferDefault(require("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/ssg.js"))),
+  "component---src-pages-movie-js": hot(preferDefault(require("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/movie.js"))),
+  "component---src-pages-snowcrash-js": hot(preferDefault(require("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/snowcrash.js"))),
+  "component---src-pages-groupmeet-js": hot(preferDefault(require("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/groupmeet.js")))
 }
 
