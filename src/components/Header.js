@@ -41,7 +41,7 @@ const Header = props => (
       </li>
     </ul>
     <p>
-      Technical Skills:
+      Technical Skills: <space></space>
       <br />
       Python - React.js - JavaScript (ES6) - HTML / CSS - Django - Gatsby -
       Postgres SQL - Bash - Git - Pipenv - React Router - FlexBox & Grid - BEM -
