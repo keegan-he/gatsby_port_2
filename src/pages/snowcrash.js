@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 
 import Layout from '../components/layout';
 import HeaderGeneric from '../components/HeaderGeneric';
-import pic04 from '../assets/images/pic04.jpg';
+import snowcrash from '../assets/pages/snowcrashbig.png';
 
 class Generic extends React.Component {
   render() {
@@ -14,7 +14,7 @@ class Generic extends React.Component {
         <div id="main">
           <section id="content" className="main">
             <span className="image main">
-              <img src={pic04} alt="" />
+              <img src={snowcrash} alt="" />
             </span>
             <h2>Snowcrash Chapters!</h2>
             <p>Github Link: https://github.com/keegan-he/snowcrash_chapters </p>
