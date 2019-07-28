@@ -126,10 +126,10 @@ class Index extends React.Component {
                 />
                 <h3>Group Meet</h3>
                 <p>
-                  This is a Django app that I worked on with some friends. I did
-                  the front end and we put a lot of business logic into my
-                  Jinja2 templating so I am working to refactor it into the
-                  Model where it belongs. :)
+                  This is a Django app that I worked on with friends. I did the
+                  front end and we put a lot of business logic into the Jinja2
+                  templating so I'm working to refactor it into the Model where
+                  it belongs. :)
                 </p>
                 <Link to="/groupmeet" className="button">
                   Learn More
