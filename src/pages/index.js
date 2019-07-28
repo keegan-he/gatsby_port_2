@@ -109,7 +109,7 @@ class Index extends React.Component {
                 <p>
                   Having been obsessed with Snow Crash I wanted to practice my
                   CSS to create a fun way to stylize the first chapter of my
-                  favorite Cyber Punk novel by Neal Stphenson. This was fun!
+                  favorite Cyber Punk novel by Neal Stephenson.
                 </p>
                 <Link to="/snowcrash" className="button">
                   Learn More
