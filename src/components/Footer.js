@@ -4,7 +4,6 @@ import { Link } from 'gatsby';
 const Footer = props => (
   <footer id="footer">
     <section>
-    
       <h2>Thank you for stopping by!</h2>
       <p>
         If you have any questions or if there's anything I can help you with
@@ -17,8 +16,6 @@ const Footer = props => (
     <section>
       <h2>Contact:</h2>
       <dl className="alt">
-        <dt>Address</dt>
-        <dd>Parker St &bull; Berkeley, CA 94703 &bull; USA</dd>
         <dt>Phone</dt>
         <dd>(206) 446-8469</dd>
         <dt>Email</dt>
