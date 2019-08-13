@@ -156,10 +156,8 @@ class Index extends React.Component {
                 <img className="Project-image" src={Euni} alt="Project 3" />
                 <h3>UX Portfolio</h3>
                 <p>
-                  Built for the all mighty UX writer and designer, Euni G. This
-                  is a work in progress! Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Illo minima officia harum necessitatibus,
-                  veniam ex suscipit corporis sint.
+                  A local UX writer and designer portfolio. This is a work in
+                  progress and will updated soon!
                 </p>
                 <Link to="/euni" className="button">
                   Learn More
