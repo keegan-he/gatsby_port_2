@@ -159,7 +159,6 @@ class Index extends React.Component {
                   A local UX writer and designer portfolio. Eunice has worked on
                   many different projects for Redbubble and Google. This
                   portfolio is a work in progress and will be live soon! :)
-                  progress and will updated soon!
                 </p>
                 <Link to="/euni" className="button">
                   Learn More
