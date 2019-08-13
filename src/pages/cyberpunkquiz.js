@@ -19,11 +19,11 @@ class Generic extends React.Component {
             <h2>React Cyberpunk Quiz</h2>
             <p>Github Link: https://github.com/keegan-he/react-cyber-quiz </p>
             <p>
-              Live Project: update coming soon! Until then, feel free to clone
-              repo and npm start :P{' '}
+              Live Project: Coming soon! To get started, clone the
+              repo on Github and install NPM.{' '}
             </p>
             <h2>Learnings</h2>
-            <p>TBC!</p>
+            <p>Unidirectional dataflow with React and using state to update the UI.</p>
           </section>
         </div>
       </Layout>
