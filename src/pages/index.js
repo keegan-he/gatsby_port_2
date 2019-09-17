@@ -74,20 +74,20 @@ class Index extends React.Component {
               <h2>Projects</h2>
             </header>
             <ul className="features">
-            <li>
-            <img className="Project-image" src={Movie} alt="Project 2" />
-            <h3>AaayeMDB Movie Watchlist</h3>
-            <p>
-              Built using the MERN stack. This app fetches in data from The
-              Movie DB API and allows you to save your additions to a watch
-              list via MongoDB.
-            </p>
-            <Link to="/movie" className="button">
-              Learn More
-            </Link>
-          </li>  
-            
-            <li>
+              <li>
+                <img className="Project-image" src={Movie} alt="Project 2" />
+                <h3>AaayeMDB Movie Watchlist</h3>
+                <p>
+                  Built using the MERN stack. This app fetches in data from The
+                  Movie DB API and allows you to save your additions to a watch
+                  list via MongoDB.
+                </p>
+                <Link to="/movie" className="button">
+                  Learn More
+                </Link>
+              </li>
+
+              <li>
                 <img className="Project-image" src={Ssg} alt="Project 1" />
 
                 <h3>Static Site Generator</h3>
@@ -100,19 +100,21 @@ class Index extends React.Component {
                   Learn More
                 </Link>
               </li>
+
               <li>
                 <img
                   className="Project-image"
-                  src={Snowcrash}
+                  src={Reactquiz}
                   alt="Project 3"
                 />
-                <h3>Snowcrash Chapters CSS</h3>
+                <h3>Cyberpunk Quiz in React</h3>
                 <p>
-                  Having been obsessed with Snow Crash I wanted to practice my
-                  CSS to create a fun way to stylize the first chapter of my
-                  favorite Cyber Punk novel by Neal Stephenson.
+                  Using React I wanted to create an app that would help me
+                  understand how state is passed around the front end. I thought
+                  what better way than to create a quiz to test your Cyberpunk
+                  knowledge.
                 </p>
-                <Link to="/snowcrash" className="button">
+                <Link to="/cyberpunkquiz" className="button">
                   Learn More
                 </Link>
               </li>
@@ -139,17 +141,16 @@ class Index extends React.Component {
               <li>
                 <img
                   className="Project-image"
-                  src={Reactquiz}
+                  src={Snowcrash}
                   alt="Project 3"
                 />
-                <h3>Cyberpunk Quiz in React</h3>
+                <h3>Snowcrash Chapters CSS</h3>
                 <p>
-                  Using React I wanted to create an app that would help me
-                  understand how state is passed around the front end. I thought
-                  what better way than to create a quiz to test your Cyberpunk
-                  knowledge.
+                  Having been obsessed with Snow Crash I wanted to practice my
+                  CSS to create a fun way to stylize the first chapter of my
+                  favorite Cyber Punk novel by Neal Stephenson.
                 </p>
-                <Link to="/cyberpunkquiz" className="button">
+                <Link to="/snowcrash" className="button">
                   Learn More
                 </Link>
               </li>
