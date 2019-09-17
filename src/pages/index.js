@@ -74,7 +74,20 @@ class Index extends React.Component {
               <h2>Projects</h2>
             </header>
             <ul className="features">
-              <li>
+            <li>
+            <img className="Project-image" src={Movie} alt="Project 2" />
+            <h3>AaayeMDB Movie Watchlist</h3>
+            <p>
+              Built using the MERN stack. This app fetches in data from The
+              Movie DB API and allows you to save your additions to a watch
+              list via MongoDB.
+            </p>
+            <Link to="/movie" className="button">
+              Learn More
+            </Link>
+          </li>  
+            
+            <li>
                 <img className="Project-image" src={Ssg} alt="Project 1" />
 
                 <h3>Static Site Generator</h3>
@@ -84,18 +97,6 @@ class Index extends React.Component {
                   combine your content with templates to create static pages.
                 </p>
                 <Link to="/ssg" className="button">
-                  Learn More
-                </Link>
-              </li>
-              <li>
-                <img className="Project-image" src={Movie} alt="Project 2" />
-                <h3>AyeeEmmDeeBee To-Do Watchlist</h3>
-                <p>
-                  Built using the MERN stack. This app fetches in data from The
-                  Movie DB API and allows you to save your additions to a watch
-                  list via MongoDB.
-                </p>
-                <Link to="/movie" className="button">
                   Learn More
                 </Link>
               </li>
