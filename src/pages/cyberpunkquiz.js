@@ -19,11 +19,14 @@ class Generic extends React.Component {
             <h2>React Cyberpunk Quiz</h2>
             <p>Github Link: https://github.com/keegan-he/react-cyber-quiz </p>
             <p>
-              Live Project: Coming soon! To get started, clone the
-              repo on Github and install NPM.{' '}
+              Live Project:{' '}
+              <a href="https://pedantic-blackwell-f953b2.netlify.com/">Here</a>
             </p>
             <h2>Learnings</h2>
-            <p>Unidirectional dataflow with React and using state to update the UI.</p>
+            <p>
+              Unidirectional dataflow with React and using state to update the
+              UI.
+            </p>
           </section>
         </div>
       </Layout>
