@@ -88,20 +88,6 @@ class Index extends React.Component {
               </li>
 
               <li>
-                <img className="Project-image" src={Ssg} alt="Project 1" />
-
-                <h3>Static Site Generator</h3>
-                <p>
-                  Using the Django web framework I built this static site
-                  generator using Python, CSS, HTML and Jinja2. Run build.py and
-                  combine your content with templates to create static pages.
-                </p>
-                <Link to="/ssg" className="button">
-                  Learn More
-                </Link>
-              </li>
-
-              <li>
                 <img
                   className="Project-image"
                   src={Reactquiz}
@@ -118,6 +104,21 @@ class Index extends React.Component {
                   Learn More
                 </Link>
               </li>
+
+              <li>
+                <img className="Project-image" src={Ssg} alt="Project 1" />
+
+                <h3>Static Site Generator</h3>
+                <p>
+                  Using the Django web framework I built this static site
+                  generator using Python, CSS, HTML and Jinja2. Run build.py and
+                  combine your content with templates to create static pages.
+                </p>
+                <Link to="/ssg" className="button">
+                  Learn More
+                </Link>
+              </li>
+
             </ul>
 
             <ul className="features">

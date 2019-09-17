@@ -18,17 +18,17 @@ class Generic extends React.Component {
             </span>
             <h2>Static Site Generator Info!</h2>
             <p>
-              Github Link:
+              Github Code Link:{' '}
               <a href="https://github.com/keegan-he/2nd_refactor_ssg_site_generator">
                 Here
               </a>
             </p>
-            <p>
-              Live Project: On heroku, I'm embaressed to share the link before I
-              change the content. COMING SOON!{' '}
-            </p>
-            <h2>Learnings</h2>
-            <p>TBC!</p>
+            <p>Live Project: {' '}
+            <a href="https://calm-fortress-18434.herokuapp.com/">
+              Here
+            </a> </p>
+            <h2>Learnings:</h2>
+            <p>First project working with Django and its templating language. This project started out as a way for me to build a static site generator. </p>
           </section>
         </div>
       </Layout>
