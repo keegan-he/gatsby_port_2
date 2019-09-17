@@ -45,7 +45,7 @@ const Header = props => (
       <br />
       Python - React.js - JavaScript (ES6) - HTML / CSS - Django - Gatsby -
       Postgres SQL - Bash - Git - Pipenv - React Router - FlexBox & Grid - BEM -
-      MVC - OOP - API engineering - ORM - OOP - Static Site Generation - SPA
+      MVC - OOP - API engineering - ORM - Static Site Generation - SPA
       (Single Page Apps) - Test Driven Development - Bootstrap - Agile
       <br />
     </p>
