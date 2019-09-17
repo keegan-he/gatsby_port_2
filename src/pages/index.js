@@ -50,14 +50,10 @@ class Index extends React.Component {
                   <h2>About</h2>
                 </header>
                 <p>
-                  Throughout my life, I've had many varied passions and
-                  interests, usually centered around art and technology. I went
-                  to my first Defcon as a 13 year old and I love Linux like an
-                  old friend. I took my passion for phone phreaking and system
-                  exploits to studying Information Networking and
-                  Telecommunications in college. I now work in the Bay Area, for
-                  the art e-commerce website, Redbubble, specifically in the
-                  field of Intellectual Property and Licensing.
+                  Experienced Content Operations Manager and Freelance Software
+                  Developer, with a passion for building relationships and
+                  user-focused products. Demonstrated history of working in
+                  e-commerce, specifically multi-sided marketplaces.
                 </p>
                 <ul className="actions">
                   <li></li>
@@ -118,7 +114,6 @@ class Index extends React.Component {
                   Learn More
                 </Link>
               </li>
-
             </ul>
 
             <ul className="features">
