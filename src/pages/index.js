@@ -50,10 +50,11 @@ class Index extends React.Component {
                   <h2>About</h2>
                 </header>
                 <p>
-                  Experienced Content Operations Manager and Freelance Software
-                  Developer, with a passion for building relationships and
-                  user-focused products. Demonstrated history of working in
-                  e-commerce, specifically multi-sided marketplaces.
+                  Experienced Content Operations Manager, Partnership Manager
+                  and Freelance Software Developer, with a passion for building
+                  great user-focused products and developing deep stakeholder
+                  relationships. Demonstrated history of working in e-commerce,
+                  specifically multi-sided marketplaces.
                 </p>
                 <ul className="actions">
                   <li></li>
