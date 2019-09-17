@@ -5,7 +5,7 @@ import Waypoint from 'react-waypoint';
 import Layout from '../components/layout';
 import Header from '../components/Header';
 import Nav from '../components/Nav';
-import Keegpic from '../assets/images/uncropped.jpg';
+import Keegpic from '../assets/images/keeg2pic.jpg';
 import './index.css';
 import Groupmeet from '../assets/projects/login_demo.png';
 import Euni from '../assets/projects/eunisite.png';
