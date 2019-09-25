@@ -8,8 +8,6 @@
     box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.38);
 }
 
-/*hover tricks https://github.com/IanLunn/Hover/blob/master/README.md#hovercss- */
-
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
