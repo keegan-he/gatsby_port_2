@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../assets/images/chip.svg';
 import PDF from '../assets/resume/Keegan_Helmbrecht_Resume_2019.pdf';
-import '../assets/css/style.css'
+import '../assets/css/style.css';
 
 const Header = props => (
   <header id="header" className="alt">
@@ -51,7 +51,7 @@ const Header = props => (
       <br />
     </p>
     <div className="resumebutton">
-    <a href={PDF}>Download Resume Here</a>
+      <a href={PDF}>Download Resume Here</a>
     </div>
   </header>
 );

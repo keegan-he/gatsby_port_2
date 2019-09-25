@@ -17,10 +17,13 @@ class Generic extends React.Component {
               <img src={pic04} alt="" />
             </span>
             <h2>Euni's UX portfolio</h2>
-            <p>Github Link: https://github.com/keegan-he/e-site </p>
+            <p>
+              Github Link:{' '}
+              <a href="https://github.com/keegan-he/e-site">Here</a>
+            </p>
             <p>Live Project: Coming soon!</p>
             <h2>Learnings</h2>
-            <p>TBC!</p>
+            <p>Bootstrap, HTML, CSS</p>
           </section>
         </div>
       </Layout>

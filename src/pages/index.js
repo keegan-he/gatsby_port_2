@@ -13,6 +13,7 @@ import Movie from '../assets/projects/movie.png';
 import Reactquiz from '../assets/projects/reactquiz.png';
 import Snowcrash from '../assets/projects/snowcrash.png';
 import Ssg from '../assets/projects/ssg.png';
+import PDF from '../assets/resume/Keegan_Helmbrecht_Resume_2019.pdf'
 
 class Index extends React.Component {
   constructor(props) {
@@ -56,6 +57,7 @@ class Index extends React.Component {
                   relationships. Demonstrated history of working in e-commerce,
                   specifically multi-sided marketplaces.
                 </p>
+                
                 <ul className="actions">
                   <li></li>
                 </ul>
