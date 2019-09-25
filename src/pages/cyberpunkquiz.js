@@ -17,7 +17,10 @@ class Generic extends React.Component {
               <img src={reactquiz} alt="" />
             </span>
             <h2>React Cyberpunk Quiz</h2>
-            <p>Github Link: https://github.com/keegan-he/react-cyber-quiz </p>
+            <p>
+              Github Link:{' '}
+              <a href="https://github.com/keegan-he/react-cyber-quiz">Here</a>
+            </p>
             <p>
               Live Project:{' '}
               <a href="https://pedantic-blackwell-f953b2.netlify.com/">Here</a>
