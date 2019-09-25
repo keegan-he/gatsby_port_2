@@ -9,28 +9,7 @@ const Footer = props => (
         If you have any questions or if there's anything I can help you with
         project-wise please get in touch. I look forward to hearing from you!
       </p>
-      <ul className="actions">
-        <form name="contact" method="POST" data-netlify="true">
-          <p>
-            <label>
-              Your Name: <input type="text" name="name" />
-            </label>
-          </p>
-          <p>
-            <label>
-              Your Email: <input type="email" name="email" />
-            </label>
-          </p>
-          <p>
-            <label>
-              Message: <textarea name="message"></textarea>
-            </label>
-          </p>
-          <p>
-            <button type="submit">Send</button>
-          </p>
-        </form>
-      </ul>
+      <ul className="actions"></ul>
     </section>
     <section>
       <h2>Contact:</h2>
