@@ -33,7 +33,7 @@ const Footer = props => (
           name="contact-form"
         >
           <input type="hidden" name="bot-field" />
-          <div className="contact-card__fields">
+          <div className="">CONTACT ME</div>
             <div className="contact-card__field half">
               <input
                 className="contact-card__name"
@@ -64,7 +64,7 @@ const Footer = props => (
             <div className="contact-card__field">
               <div data-netlify-recaptcha="true"></div>
             </div>
-          </div>
+
           <ul className="contact-card__actions">
             <li>
               <input
