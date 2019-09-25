@@ -18,7 +18,7 @@ class Generic extends React.Component {
             </span>
             <h2>AyeeEmmDeeBee Movie App Watchlist!</h2>
             <p>
-              Code:{' '}
+              Code on Github:{' '}
               <a href="https://github.com/keegan-he/v2-react-movie-list">
                 Here
               </a>
@@ -28,7 +28,13 @@ class Generic extends React.Component {
               <a href="https://protected-retreat-68530.herokuapp.com/">Here</a>
             </p>
             <h2>Learnings:</h2>
-            <p>First time making CRUD app with MongoDB.</p>
+            <p>
+              First time making CRUD app with the MERN stack. Had a lot of fun
+              learning how to make multiple fetch requests to pull from the Open
+              Movie Database api. This app incorporates Mongo database by
+              allowing you to store your favorite movies to a watchlist for
+              later.{' '}
+            </p>
           </section>
         </div>
       </Layout>

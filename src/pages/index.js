@@ -6,7 +6,6 @@ import Layout from '../components/layout';
 import Header from '../components/Header';
 import Nav from '../components/Nav';
 import Keegpic from '../assets/images/keeg2pic.jpg';
-import './index.css';
 import Groupmeet from '../assets/projects/login_demo.png';
 import Euni from '../assets/projects/eunisite.png';
 import Movie from '../assets/projects/movie.png';
@@ -14,6 +13,7 @@ import Reactquiz from '../assets/projects/reactquiz.png';
 import Snowcrash from '../assets/projects/snowcrash.png';
 import Ssg from '../assets/projects/ssg.png';
 import '../assets/css/style.css';
+import './index.css';
 
 class Index extends React.Component {
   constructor(props) {
@@ -166,15 +166,16 @@ class Index extends React.Component {
                 </Link>
               </li>
             </ul>
-
             <footer className="major">
               <ul className="actions">
                 <li></li>
               </ul>
             </footer>
           </section>
+          <contact>
+            <section id="second" className="main"></section>
+          </contact>
         </div>
-<hold>here</hold>
       </Layout>
     );
   }

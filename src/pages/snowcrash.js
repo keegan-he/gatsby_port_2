@@ -18,7 +18,7 @@ class Generic extends React.Component {
             </span>
             <h2>Snowcrash Chapters!</h2>
             <p>
-              Code:{' '}
+              Code on Github:{' '}
               <a href="https://github.com/keegan-he/snowcrash_chapters">Here</a>
             </p>
             <p>
@@ -26,7 +26,7 @@ class Generic extends React.Component {
               <a href="https://keegan-he.github.io/snowcrash_chapters/">Here</a>
             </p>
             <h2>Learnings</h2>
-            <p>TBC!</p>
+            <p>HTML, CSS</p>
           </section>
         </div>
       </Layout>

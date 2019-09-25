@@ -16,12 +16,15 @@ class Generic extends React.Component {
             <span className="image main">
               <img src={pic04} alt="" />
             </span>
-            <h2>Euni's UX portfolio</h2>
+            <h2>Eunice Gopez - UX portfolio</h2>
             <p>
               Github Link:{' '}
               <a href="https://github.com/keegan-he/e-site">Here</a>
             </p>
-            <p>Live Project: Coming soon!</p>
+            <p>
+              Live Project: Check back in soon! I'm waiting on additional assets
+              to be delivered from the client before publishing.
+            </p>
             <h2>Learnings</h2>
             <p>Bootstrap, HTML, CSS</p>
           </section>

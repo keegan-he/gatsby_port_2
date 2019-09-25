@@ -23,12 +23,19 @@ class Generic extends React.Component {
                 Here
               </a>
             </p>
-            <p>Live Project: {' '}
-            <a href="https://calm-fortress-18434.herokuapp.com/">
-              Here
-            </a> </p>
+            <p>
+              Live Project:{' '}
+              <a href="https://calm-fortress-18434.herokuapp.com/">Here</a>{' '}
+            </p>
             <h2>Learnings:</h2>
-            <p>First project working with Django and its templating language. This project started out as a way for me to build a static site generator. </p>
+            <p>
+              First project working with Python and Django. I learned a lot
+              about setting up routes and merging content with base templates
+              via Django's awesome templating language(similar to Jinja2). By
+              creating my own static site generator from scratch this project
+              really helped me understand their power when working with large
+              amounts of content.{' '}
+            </p>
           </section>
         </div>
       </Layout>
