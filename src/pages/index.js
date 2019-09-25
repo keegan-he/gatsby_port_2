@@ -13,7 +13,7 @@ import Movie from '../assets/projects/movie.png';
 import Reactquiz from '../assets/projects/reactquiz.png';
 import Snowcrash from '../assets/projects/snowcrash.png';
 import Ssg from '../assets/projects/ssg.png';
-import PDF from '../assets/resume/Keegan_Helmbrecht_Resume_2019.pdf';
+import '../assets/css/style.css';
 
 class Index extends React.Component {
   constructor(props) {
@@ -174,57 +174,7 @@ class Index extends React.Component {
             </footer>
           </section>
         </div>
-        <form
-          method="POST"
-          action="/success"
-          className="contact-card__form"
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
-          name="contact-form"
-        >
-          <input type="hidden" name="bot-field" />
-          <div className="contact-card__fields">
-            <div className="contact-card__field half">
-              <input
-                className="contact-card__name"
-                type="text"
-                name="name"
-                id="name"
-                placeholder="Name"
-              />
-            </div>
-            <div className="contact-card__field half">
-              <input
-                className="contact-card__email "
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Email"
-              />
-            </div>
-            <div className="contact-card__field">
-              <textarea
-                className="contact-card__message "
-                name="message"
-                id="message"
-                rows="8"
-                placeholder="Start typing..."
-              ></textarea>
-            </div>
-            <div className="contact-card__field">
-              <div data-netlify-recaptcha="true"></div>
-            </div>
-          </div>
-          <ul className="contact-card__actions">
-            <li>
-              <input
-                className="contact-card__send-message btn"
-                type="submit"
-                value="Send Message"
-              />
-            </li>
-          </ul>
-        </form>
+<hold>here</hold>
       </Layout>
     );
   }
