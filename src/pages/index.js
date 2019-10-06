@@ -12,6 +12,9 @@ import Movie from '../assets/projects/movie.png';
 import Reactquiz from '../assets/projects/reactquiz.png';
 import Snowcrash from '../assets/projects/snowcrash.png';
 import Ssg from '../assets/projects/ssg.png';
+import Findgithubuser from '../assets/projects/findgithubuser.png';
+import Photographysite from '../assets/projects/photographysite.png';
+import Portgatsby from '../assets/projects/portgatsby.png';
 import '../assets/css/style.css';
 import './index.css';
 
@@ -92,7 +95,61 @@ class Index extends React.Component {
                   src={Reactquiz}
                   alt="Project 3"
                 />
-                <h3>Cyberpunk Quiz in React</h3>
+                <h3>Cyberpunk Quiz</h3>
+                <p>
+                  Using React I wanted to create an app that would help me
+                  understand how state is passed around the front end. I thought
+                  what better way than to create a quiz to test your Cyberpunk
+                  knowledge.
+                </p>
+                <Link to="/cyberpunkquiz" className="button">
+                  Learn More
+                </Link>
+              </li>
+
+              <li>
+                <img
+                  className="Project-image"
+                  src={Findgithubuser}
+                  alt="Project 3"
+                />
+                <h3>Github Search User</h3>
+                <p>
+                  Using React I wanted to create an app that would help me
+                  understand how state is passed around the front end. I thought
+                  what better way than to create a quiz to test your Cyberpunk
+                  knowledge.
+                </p>
+                <Link to="/cyberpunkquiz" className="button">
+                  Learn More
+                </Link>
+              </li>
+
+              <li>
+                <img
+                  className="Project-image"
+                  src={Photographysite}
+                  alt="Project 3"
+                />
+                <h3>Photography Site</h3>
+                <p>
+                  Using React I wanted to create an app that would help me
+                  understand how state is passed around the front end. I thought
+                  what better way than to create a quiz to test your Cyberpunk
+                  knowledge.
+                </p>
+                <Link to="/cyberpunkquiz" className="button">
+                  Learn More
+                </Link>
+              </li>
+
+              <li>
+                <img
+                  className="Project-image"
+                  src={Portgatsby}
+                  alt="Project 3"
+                />
+                <h3>Gatsby Portfolio</h3>
                 <p>
                   Using React I wanted to create an app that would help me
                   understand how state is passed around the front end. I thought
