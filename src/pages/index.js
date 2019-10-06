@@ -162,15 +162,16 @@ class Index extends React.Component {
               </li>
 
               <li>
-                <img className="Project-image" src={Ssg} alt="Project 1" />
+                <img className="Project-image" src={Groupmeet} alt="Project 1" />
 
-                <h3>Static Site Generator</h3>
+                <h3>Group Meet</h3>
                 <p>
-                  Using the Django web framework I built this static site
-                  generator using Python, CSS, HTML and Jinja2. Run build.py and
-                  combine your content with templates to create static pages.
+                This is a Django app that I worked on with friends. I did the
+                  front end and we put a lot of business logic into the Jinja2
+                  templating Eventually I'll get around to refactoring the logic
+                  back to the Model.
                 </p>
-                <Link to="/ssg" className="button">
+                <Link to="/groupmeet" className="button">
                   Learn More
                 </Link>
               </li>
@@ -180,17 +181,16 @@ class Index extends React.Component {
               <li>
                 <img
                   className="Project-image"
-                  src={Groupmeet}
+                  src={Ssg}
                   alt="Project 3"
                 />
-                <h3>Group Meet</h3>
+                <h3>Static Site Generator</h3>
                 <p>
-                  This is a Django app that I worked on with friends. I did the
-                  front end and we put a lot of business logic into the Jinja2
-                  templating Eventually I'll get around to refactoring the logic
-                  back to the Model.
+                  Using the Django web framework I built this static site
+                  generator using Python, CSS, HTML and Jinja2. Run build.py and
+                  combine your content with templates to create static pages.
                 </p>
-                <Link to="/groupmeet" className="button">
+                <Link to="/ssg" className="button">
                   Learn More
                 </Link>
               </li>
