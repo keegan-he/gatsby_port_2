@@ -131,7 +131,7 @@ class Index extends React.Component {
                   src={Photographysite}
                   alt="Project 3"
                 />
-                <h3>Photography Site</h3>
+                <h3>KH Photography</h3>
                 <p>
                   Using React I wanted to create an app that would help me
                   understand how state is passed around the front end. I thought
