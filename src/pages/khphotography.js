@@ -18,11 +18,11 @@ class Generic extends React.Component {
             <h2>Photography Portfolio</h2>
             <p>
               Github Link:{' '}
-              <a href="https://github.com/keegan-he/react-cyber-quiz">Here</a>
+              <a href="https://github.com/keegan-he/photographysite">Here</a>
             </p>
             <p>
               Live Project:{' '}
-              <a href="https://pedantic-blackwell-f953b2.netlify.com/">Here</a>
+              <a href="https://keegsphotography.netlify.com">Here</a>
             </p>
             <h2>Learnings</h2>
             <p>
