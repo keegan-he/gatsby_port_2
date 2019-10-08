@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import Layout from '../components/layout';
 import HeaderGeneric from '../components/HeaderGeneric';
-import reactquiz from '../assets/projects/cybersmall.png';
+import khgatsbyport from '../assets/projects/khgatsbyport.png';
 
 class Generic extends React.Component {
   render() {
@@ -13,7 +13,7 @@ class Generic extends React.Component {
         <div id="main">
           <section id="content" className="main">
             <span className="image main">
-              <img src={reactquiz} alt="" />
+              <img src={khgatsbyport} alt="" />
             </span>
             <h2>Portfolio Project</h2>
             <p>
