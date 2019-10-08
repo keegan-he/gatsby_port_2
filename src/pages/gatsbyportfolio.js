@@ -15,7 +15,7 @@ class Generic extends React.Component {
             <span className="image main">
               <img src={khgatsbyport} alt="" />
             </span>
-            <h2>Portfolio Project</h2>
+            <h2>Portfolio Site - aka this website</h2>
             <p>
               Github Link:{' '}
               <a href="https://github.com/keegan-he/gatsby_port_2">Here</a>
