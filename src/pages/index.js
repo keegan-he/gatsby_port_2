@@ -120,7 +120,7 @@ class Index extends React.Component {
                   what better way than to create a quiz to test your Cyberpunk
                   knowledge.
                 </p>
-                <Link to="/cyberpunkquiz" className="button">
+                <Link to="/githubsearch" className="button">
                   Learn More
                 </Link>
               </li>
@@ -138,7 +138,7 @@ class Index extends React.Component {
                   what better way than to create a quiz to test your Cyberpunk
                   knowledge.
                 </p>
-                <Link to="/cyberpunkquiz" className="button">
+                <Link to="/khphotography" className="button">
                   Learn More
                 </Link>
               </li>
@@ -150,23 +150,22 @@ class Index extends React.Component {
                   alt="Project 3"
                 />
                 <h3>GatsbyJS Portfolio</h3>
-                <p>
-                  Using React I wanted to create an app that would help me
-                  understand how state is passed around the front end. I thought
-                  what better way than to create a quiz to test your Cyberpunk
-                  knowledge.
-                </p>
-                <Link to="/cyberpunkquiz" className="button">
+                <p>Hold pleaseeeee</p>
+                <Link to="/gatsbyportfolio" className="button">
                   Learn More
                 </Link>
               </li>
 
               <li>
-                <img className="Project-image" src={Groupmeet} alt="Project 1" />
+                <img
+                  className="Project-image"
+                  src={Groupmeet}
+                  alt="Project 1"
+                />
 
                 <h3>Group Meet</h3>
                 <p>
-                This is a Django app that I worked on with friends. I did the
+                  This is a Django app that I worked on with friends. I did the
                   front end and we put a lot of business logic into the Jinja2
                   templating Eventually I'll get around to refactoring the logic
                   back to the Model.
@@ -179,11 +178,7 @@ class Index extends React.Component {
 
             <ul className="features">
               <li>
-                <img
-                  className="Project-image"
-                  src={Ssg}
-                  alt="Project 3"
-                />
+                <img className="Project-image" src={Ssg} alt="Project 3" />
                 <h3>Static Site Generator</h3>
                 <p>
                   Using the Django web framework I built this static site
