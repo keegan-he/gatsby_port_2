@@ -18,15 +18,16 @@ class Generic extends React.Component {
             <h2>Portfolio Project</h2>
             <p>
               Github Link:{' '}
-              <a href="https://github.com/keegan-he/react-cyber-quiz">Here</a>
+              <a href="https://github.com/keegan-he/gatsby_port_2">Here</a>
             </p>
             <p>
-              Live Project:{' '}
-              <a href="https://pedantic-blackwell-f953b2.netlify.com/">Here</a>
+              Live Project: <a href="https://www.keeg.dev">Here</a>
             </p>
             <h2>Learnings</h2>
             <p>
-              This project helped me understand unidirectional dataflow with React and also how to use JavaScript's class based components to update the application state & user interface.
+              This project helped me understand unidirectional dataflow with
+              React and also how to use JavaScript's class based components to
+              update the application state & user interface.
             </p>
           </section>
         </div>
