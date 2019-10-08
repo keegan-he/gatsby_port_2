@@ -24,11 +24,7 @@ class Generic extends React.Component {
               Live Project: <a href="https://www.keeg.dev">Here</a>
             </p>
             <h2>Learnings</h2>
-            <p>
-              This project helped me understand unidirectional dataflow with
-              React and also how to use JavaScript's class based components to
-              update the application state & user interface.
-            </p>
+            <p>GatsbyJS framework, React Scrollspy, SASS, Netlify Forms </p>
           </section>
         </div>
       </Layout>

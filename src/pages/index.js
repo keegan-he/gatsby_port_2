@@ -133,7 +133,10 @@ class Index extends React.Component {
                 />
                 <h3>Keegan Helmbrecht Photography</h3>
                 <p>
-                This is my photography website. I host a lot of my travel pictures on here and abstract images that I've taken over the years. It also has lots of portrait pictures that I've done of my collegues. 
+                  This is my photography website. I host a lot of my travel
+                  pictures on here and abstract images that I've taken over the
+                  years. It also has lots of portrait pictures that I've done of
+                  my collegues.
                 </p>
                 <Link to="/khphotography" className="button">
                   Learn More
@@ -146,10 +149,15 @@ class Index extends React.Component {
                   src={Portgatsby}
                   alt="Project 3"
                 />
-                <h3>GatsbyJS Portfolio</h3>
-                <p>I wanted to learn GatsbyJS for awhile. I love how fast the sites are and it's been a joy to build with. </p>
+                <h3>GatsbyJS Portfolio (this site)</h3>
+                <p>
+                  I wanted to learn Gatsby and what better way to do it then to
+                  build a portfolio site with it. I love how fast it is and its
+                  been a joy to build with. I look forward to working with this
+                  technology in the future!{' '}
+                </p>
                 <Link to="/gatsbyportfolio" className="button">
-                Learn More
+                  Learn More
                 </Link>
               </li>
 
