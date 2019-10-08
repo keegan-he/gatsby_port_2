@@ -25,11 +25,7 @@ class Generic extends React.Component {
               <a href="https://keegsphotography.netlify.com">Here</a>
             </p>
             <h2>Learnings</h2>
-            <p>
-              This project helped me understand unidirectional dataflow with
-              React and also how to use JavaScript's class based components to
-              update the application state & user interface.
-            </p>
+            <p>HTML, CSS, SASS, Vanilla Javascript</p>
           </section>
         </div>
       </Layout>

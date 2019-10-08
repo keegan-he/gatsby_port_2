@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import Layout from '../components/layout';
 import HeaderGeneric from '../components/HeaderGeneric';
-import khgatsbyport from '../assets/projects/khgatsbyport.png';
+import khgatsbyport from '../assets/projects/gatsbyportfolio.png';
 
 class Generic extends React.Component {
   render() {

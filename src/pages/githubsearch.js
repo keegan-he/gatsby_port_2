@@ -28,9 +28,7 @@ class Generic extends React.Component {
             </p>
             <h2>Learnings</h2>
             <p>
-              This project helped me understand unidirectional dataflow with
-              React and also how to use JavaScript's class based components to
-              update the application state & user interface.
+            React, React Router, Managing state using class components, Axios to fetch data.
             </p>
           </section>
         </div>
