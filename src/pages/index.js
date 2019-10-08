@@ -115,10 +115,10 @@ class Index extends React.Component {
                 />
                 <h3>Github Search User</h3>
                 <p>
-                  Using React I wanted to create an app that would help me
-                  understand how state is passed around the front end. I thought
-                  what better way than to create a quiz to test your Cyberpunk
-                  knowledge.
+                  Check out Github users of all kinds. Find someone new and take
+                  a look at whether they are hireable or not. See the last 5
+                  projects they coded + their bio website. All this data is
+                  fetched via the public Github API.
                 </p>
                 <Link to="/githubsearch" className="button">
                   Learn More
@@ -133,10 +133,7 @@ class Index extends React.Component {
                 />
                 <h3>Keegan Helmbrecht Photography</h3>
                 <p>
-                  Using React I wanted to create an app that would help me
-                  understand how state is passed around the front end. I thought
-                  what better way than to create a quiz to test your Cyberpunk
-                  knowledge.
+                This is my photography website. I host a lot of my travel pictures on here and abstract images that I've taken over the years. It also has lots of portrait pictures that I've done of my collegues. 
                 </p>
                 <Link to="/khphotography" className="button">
                   Learn More
@@ -150,9 +147,9 @@ class Index extends React.Component {
                   alt="Project 3"
                 />
                 <h3>GatsbyJS Portfolio</h3>
-                <p>Hold pleaseeeee</p>
+                <p>I wanted to learn GatsbyJS for awhile. I love how fast the sites are and it's been a joy to build with. </p>
                 <Link to="/gatsbyportfolio" className="button">
-                  Learn More
+                Learn More
                 </Link>
               </li>
 
