@@ -16,6 +16,9 @@ exports.components = {
   "component---src-pages-music-js": hot(preferDefault(require("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/music.js"))),
   "component---src-pages-photography-js": hot(preferDefault(require("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/photography.js"))),
   "component---src-pages-snowcrash-js": hot(preferDefault(require("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/snowcrash.js"))),
-  "component---src-pages-ssg-js": hot(preferDefault(require("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/ssg.js")))
+  "component---src-pages-ssg-js": hot(preferDefault(require("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/ssg.js"))),
+  "component---src-pages-githubsearch-js": hot(preferDefault(require("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/githubsearch.js"))),
+  "component---src-pages-khphotography-js": hot(preferDefault(require("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/khphotography.js"))),
+  "component---src-pages-gatsbyportfolio-js": hot(preferDefault(require("/Users/keeganhelmbrecht/Desktop/Personal Website/Projects/gatsby-port2/src/pages/gatsbyportfolio.js")))
 }
 
