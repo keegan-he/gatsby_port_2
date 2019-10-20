@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import Layout from '../components/layout';
 import HeaderGeneric from '../components/HeaderGeneric';
-import githubsearch from '../assets/projects/githubsearch.png';
+import githubsearch from '../assets/projects/findgithub1.png';
 
 class Generic extends React.Component {
   render() {
