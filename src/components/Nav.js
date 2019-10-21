@@ -1,7 +1,6 @@
 import React from 'react';
 import Scrollspy from 'react-scrollspy';
 import Scroll from './Scroll';
-import Rotate from 'react-reveal/Rotate';
 
 const Nav = props => (
   <nav id="nav" className={props.sticky ? 'alt' : ''}>

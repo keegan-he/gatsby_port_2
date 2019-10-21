@@ -8,13 +8,16 @@ class Generic extends React.Component {
   render() {
     return (
       <Layout>
+
         <Helmet title="Github Search User App" />
         <HeaderGeneric />
         <div id="main">
           <section id="content" className="main">
+ 
             <span className="image main">
               <img src={githubsearch} alt="" />
             </span>
+
             <h2>Github Search User</h2>
             <p>
               Github Link:{' '}
