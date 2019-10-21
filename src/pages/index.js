@@ -217,6 +217,7 @@ class Index extends React.Component {
                     Learn More
                   </Link>
                 </li>
+
                 <li>
                   <img className="Project-image" src={Euni} alt="Project 3" />
                   <h3>UX Portfolio</h3>

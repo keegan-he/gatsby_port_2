@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../assets/images/chip.svg';
 import PDF from '../assets/resume/Keegan_Helmbrecht_Resume_2019.pdf';
+import Jump from 'react-reveal/Jump';
 import '../assets/css/style.css';
 
 const Header = props => (
@@ -50,9 +51,13 @@ const Header = props => (
       Page Apps) - Test Driven Development - Bootstrap - Agile
       <br />
     </p>
+    <Jump >
     <div className="resumebutton">
+
       <a href={PDF}>Download Resume Here</a>
+
     </div>
+    </Jump>
   </header>
 );
 
