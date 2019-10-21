@@ -15,6 +15,7 @@ import Ssg from '../assets/projects/ssg.png';
 import Findgithubuser from '../assets/projects/findgithubuser.png';
 import Photographysite from '../assets/projects/photographysite.png';
 import Portgatsby from '../assets/projects/portgatsby.png';
+import Fade from 'react-reveal/Fade';
 import '../assets/css/style.css';
 import './index.css';
 
@@ -53,20 +54,23 @@ class Index extends React.Component {
                 <header className="major">
                   <h2>About</h2>
                 </header>
+                <Fade up>
                 <p>
                   Experienced Software Developer, Content Operations and Partner Manager, with a passion for building
                   great user-focused products and developing deep stakeholder
                   relationships. Demonstrated history of working in e-commerce,
                   specifically multi-sided marketplaces.
                 </p>
-
+                </Fade>
                 <ul className="actions">
                   <li></li>
                 </ul>
               </div>
+              <Fade left>
               <span className="image">
                 <img src={Keegpic} alt="" />
               </span>
+              </Fade>
             </div>
           </section>
 
@@ -74,6 +78,8 @@ class Index extends React.Component {
             <header className="major">
               <h2>Projects</h2>
             </header>
+
+            <Fade up>
             <ul className="features">
               <li>
                 <img className="Project-image" src={Movie} alt="Project 2" />
@@ -222,11 +228,17 @@ class Index extends React.Component {
                 </Link>
               </li>
             </ul>
+
+            </Fade>
+
+
             <footer className="major">
               <ul className="actions">
                 <li></li>
               </ul>
             </footer>
+
+
           </section>
           <contact>
             <section id="second" className="main"></section>
