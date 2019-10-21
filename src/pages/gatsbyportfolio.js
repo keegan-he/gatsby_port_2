@@ -24,7 +24,10 @@ class Generic extends React.Component {
               Live Project: <a href="https://www.keeg.dev">Here</a>
             </p>
             <h2>Learnings</h2>
-            <p>GatsbyJS framework, React Scrollspy, SASS, Netlify Forms </p>
+            <p>
+              GatsbyJS framework, React Scrollspy, React Waypoint, SASS, Netlify
+              Forms{' '}
+            </p>
           </section>
         </div>
       </Layout>
