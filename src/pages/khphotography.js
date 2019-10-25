@@ -3,7 +3,6 @@ import Helmet from 'react-helmet';
 import Layout from '../components/layout';
 import HeaderGeneric from '../components/HeaderGeneric';
 import khphoto from '../assets/projects/khphoto.png';
-import { Link } from "gatsby";
 
 class Generic extends React.Component {
   render() {
