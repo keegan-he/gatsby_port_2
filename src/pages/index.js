@@ -80,7 +80,7 @@ class Index extends React.Component {
               <h2>Projects</h2>
             </header>
 
-            <Fade up big>
+            <Fade up>
               <ul className="features">
                 <li>
                   <img className="Project-image" src={Movie} alt="Project 2" />
