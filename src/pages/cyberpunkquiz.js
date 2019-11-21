@@ -1,6 +1,5 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-
 import Layout from '../components/layout';
 import HeaderGeneric from '../components/HeaderGeneric';
 import reactquiz from '../assets/projects/cybersmall.png';
