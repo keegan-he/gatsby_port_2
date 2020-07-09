@@ -12,9 +12,9 @@ import Movie from '../assets/projects/movie.png';
 import Reactquiz from '../assets/projects/reactquiz.png';
 import Snowcrash from '../assets/projects/snowcrash.png';
 import Ssg from '../assets/projects/ssg.png';
-import Findgithubuser from '../assets/projects/findgithubuser.png';
 import Photographysite from '../assets/projects/photographysite.png';
-import Portgatsby from '../assets/projects/portgatsby.png';
+import NorrisZone from '../assets/projects/norriszone.png';
+import MovieShuffle from '../assets/projects/MovieShuffle.png';
 import Fade from 'react-reveal/Fade';
 import '../assets/css/style.css';
 import './index.css';
@@ -23,7 +23,7 @@ class Index extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      stickyNav: false
+      stickyNav: false,
     };
   }
 
@@ -116,17 +116,14 @@ class Index extends React.Component {
                 <li>
                   <img
                     className="Project-image"
-                    src={Findgithubuser}
+                    src={MovieShuffle}
                     alt="Project 3"
                   />
-                  <h3>Github Search User</h3>
+                  <h3>MovieShuffle</h3>
                   <p>
-                    Check out Github users of all kinds. Find someone new and
-                    take a look at whether they are hireable or not. See the
-                    last 5 projects they coded + their bio website. All this
-                    data is fetched via the public Github API.
+                  Another passion project of mine. I created MovieShuffle to end the countless hours that my partner and I would spend debating on what to watch. Use MoveShuffle to enter your movie options and do the work of choosing for you.
                   </p>
-                  <Link to="/githubsearch" className="button">
+                  <Link to="/movieshuffle" className="button">
                     Learn More
                   </Link>
                 </li>
@@ -152,17 +149,19 @@ class Index extends React.Component {
                 <li>
                   <img
                     className="Project-image"
-                    src={Portgatsby}
+                    src={NorrisZone}
                     alt="Project 3"
                   />
-                  <h3>GatsbyJS Portfolio (this site)</h3>
+                  <h3>Chuck Norris Joke Zone</h3>
                   <p>
-                    I wanted to learn Gatsby and what better way to do it then
-                    to build a portfolio site with it. I love how fast it is and
-                    its been a joy to build with. I look forward to working with
-                    this technology in the future!{' '}
+                    What's more fun than building something silly? To practice
+                    my data fetching skills I built a little Chuck Norris Fan
+                    Site.
+                    <br/>
+                    <br/>
+                    Warning: it's ridiculous but was a treat to create.{' '}
                   </p>
-                  <Link to="/gatsbyportfolio" className="button">
+                  <Link to="/norriszone" className="button">
                     Learn More
                   </Link>
                 </li>
@@ -176,10 +175,7 @@ class Index extends React.Component {
 
                   <h3>Group Meet</h3>
                   <p>
-                    This is a Django app that I worked on with friends. I did
-                    the front end and we put a lot of business logic into the
-                    Jinja2 templating Eventually I'll get around to refactoring
-                    the logic back to the Model.
+                    My first real Django project. The goal of this app is to connect coworkers with similar hobbies and interests. Front end was put together using Django's templating and the database is PostgreSQL.
                   </p>
                   <Link to="/groupmeet" className="button">
                     Learn More

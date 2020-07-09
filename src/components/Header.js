@@ -4,7 +4,7 @@ import PDF from '../assets/resume/Keegan_Helmbrecht_Resume_2019.pdf';
 import Jump from 'react-reveal/Jump';
 import '../assets/css/style.css';
 
-const Header = props => (
+const Header = (props) => (
   <header id="header" className="alt">
     <span className="logo">
       <img src={logo} alt="" />
@@ -45,18 +45,16 @@ const Header = props => (
     <p>
       Technical Skills: <space></space>
       <br />
-      Python - React.js - JavaScript (ES6) - HTML / CSS - Django - Gatsby -
-      Postgres SQL - Bash - Git - Pipenv - React Router - FlexBox & Grid - BEM -
+      JavaScript (ES6) - React.js - Gatsby - Node.js - HTML - CSS - Python - Django -
+      Postgres SQL - Bash - Git - Pipenv - React Router - FlexBox & Grid -
       MVC - OOP - API engineering - ORM - Static Site Generation - SPA (Single
-      Page Apps) - Test Driven Development - Bootstrap - Figma - Agile
+      Page Apps) - Test Driven Development - Bootstrap - Figma -Photoshop- Agile
       <br />
     </p>
-    <Jump >
-    <div className="resumebutton">
-
-      <a href={PDF}>Download Resume Here</a>
-
-    </div>
+    <Jump>
+      <div className="resumebutton">
+        <a href={PDF}>Download Resume Here</a>
+      </div>
     </Jump>
   </header>
 );
