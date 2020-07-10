@@ -1,9 +1,8 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-
 import Layout from '../components/layout';
 import HeaderGeneric from '../components/HeaderGeneric';
-import pic04 from '../assets/pages/moviebig.png';
+import Movie from '../assets/images/Movie_example2.png';
 
 class Generic extends React.Component {
   render() {
@@ -14,7 +13,7 @@ class Generic extends React.Component {
         <div id="main">
           <section id="content" className="main">
             <span className="image main">
-              <img src={pic04} alt="" />
+              <img src={Movie} alt="" />
             </span>
             <h2>AyeeEmmDeeBee Movie App Watchlist!</h2>
             <p>
