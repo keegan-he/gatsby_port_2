@@ -52,14 +52,13 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>About</h2>
+                  <h2>Hello! 👋</h2>
                 </header>
                 <Fade up>
                   <p>
-                    Experienced Software Developer, Content Operations and
-                    Partner Manager, with a passion for building great
-                    user-focused products and developing deep stakeholder
-                    relationships. Demonstrated history of working in
+                    I'm an experienced Software Developer and Content Operations Manager, with a passion for building great
+                    user-focused products and developing wonderful stakeholder
+                    relationships. I have a deep history of working in
                     e-commerce, specifically multi-sided marketplaces.
                   </p>
                 </Fade>

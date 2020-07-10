@@ -11,7 +11,7 @@ const Nav = props => (
     >
       <li>
         <Scroll type="id" element="intro">
-          <a href="#">Introduction</a>
+          <a href="#">About</a>
         </Scroll>
       </li>
 
@@ -25,11 +25,7 @@ const Nav = props => (
           <a href="#">Contact</a>
         </Scroll>
       </li>
-      <li>
-        <Scroll type="id" element="third">
-          <a href="#">Music & Photography - Coming Soon!</a>
-        </Scroll>
-      </li>
+
       <li></li>
     </Scrollspy>
   </nav>

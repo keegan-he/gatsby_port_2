@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/images/chip.svg';
+import logo from '../assets/images/cat.png';
 import PDF from '../assets/resume/Keegan_Helmbrecht_Resume_2019.pdf';
 import Jump from 'react-reveal/Jump';
 import '../assets/css/style.css';
@@ -45,10 +45,11 @@ const Header = (props) => (
     <p>
       Technical Skills: <space></space>
       <br />
-      JavaScript (ES6) - React.js - Gatsby - Node.js - HTML - CSS - Python - Django -
-      Postgres SQL - Bash - Git - Pipenv - React Router - FlexBox & Grid -
-      MVC - OOP - API engineering - ORM - Static Site Generation - SPA (Single
-      Page Apps) - Test Driven Development - Bootstrap - Figma -Photoshop- Agile
+      JavaScript (ES6) - React.js - Gatsby - Node.js - HTML - CSS - Python -
+      Django - Postgres SQL - Bash - Git - Pipenv - React Router - FlexBox &
+      Grid - MVC - OOP - API engineering - ORM - Static Site Generation - SPA
+      (Single Page Apps) - Test Driven Development - Bootstrap - Figma
+      -Photoshop- Agile
       <br />
     </p>
     <Jump>
