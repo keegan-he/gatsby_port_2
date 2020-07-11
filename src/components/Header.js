@@ -54,7 +54,7 @@ const Header = (props) => (
     </p>
     <Jump>
       <div className="resumebutton">
-        <a href={PDF}>Download Resume Here</a>
+        <a href={PDF}>Download Resume Here 👈</a>
       </div>
     </Jump>
   </header>

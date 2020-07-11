@@ -21,7 +21,7 @@ button,
 	text-align: center;
 	text-decoration: none;
 	white-space: nowrap;
-	background-color: #ccdc3ab0 !important;
+	background-color: #e95970 !important;
 	box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.38) !important;
 	text-shadow: 2px 2px rgba(187, 202, 203, 0.231) !important;
 	-moz-box-shadow: 3px 3px 5px 3px #ccc !important;
@@ -72,13 +72,15 @@ button,
 	.button {
 		background-color: transparent;
 		box-shadow: inset 0 0 0 1px _palette($p, border);
-		color: _palette($p, fg-bold) !important;
+		// color: _palette($p, fg-bold) !important;
+		color: white; //button text color
 
 		&:hover {
 			background-color: _palette($p, border-bg);
 			transform: skew(-5deg);
 			box-shadow: 3px 3px 5px 3px rgb(227, 224, 224) !important;
 			/* hover effect above*/
+			color: white; // button text color
 
 		}
 
