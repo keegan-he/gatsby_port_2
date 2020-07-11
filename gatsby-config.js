@@ -9,8 +9,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Keegan Helmbrecht Portfolio',
+        short_name: 'kh portfolio',
         start_url: '/',
         background_color: '#ffcb05',
         theme_color: '#ffcb05',
