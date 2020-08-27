@@ -1,13 +1,13 @@
 import React from 'react';
-import logo from '../assets/images/cat.png';
-import PDF from '../assets/resume/Keegan_Helmbrecht_Resume_2019.pdf';
+import logo from '../assets/images/catgrinning_ds.png';
+import PDF from '../assets/resume/Keegan_Helmbrecht_Resume_2020.pdf';
 import Jump from 'react-reveal/Jump';
 import '../assets/css/style.css';
 
-const Header = (props) => (
+const Header = () => (
   <header id="header" className="alt">
     <span className="logo">
-      <img src={logo} alt="" />
+      <img src={logo} alt="happy cat emoji" />
     </span>
     <h1>Keegan Helmbrecht</h1>
     <h2>Full Stack Developer in the Bay Area</h2>
@@ -45,9 +45,9 @@ const Header = (props) => (
     <p>
       Technical Skills: <space></space>
       <br />
-      JavaScript (ES6) - React.js - Gatsby - Node.js - HTML - CSS - Python -
+      JavaScript - React - Gatsby - Node - HTML5 - CSS3 - Python -
       Django - Postgres SQL - Bash - Git - Pipenv - React Router - FlexBox &
-      Grid - MVC - OOP - API engineering - ORM - Static Site Generation - SPA
+      Grid - MVC - OOP - REST APIs - ORM - Static Site Generation - SPA
       (Single Page Apps) - Test Driven Development - Bootstrap - Figma
       -Photoshop- Agile
       <br />

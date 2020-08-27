@@ -4,18 +4,18 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
-    "gatsby": "^2.2.9",
-    "gatsby-plugin-manifest": "^2.4.17",
-    "gatsby-plugin-offline": "^2.0.25",
-    "gatsby-plugin-react-helmet": "^3.0.10",
-    "gatsby-plugin-sass": "^2.0.11",
-    "node-sass": "^4.11.0",
-    "react": "^16.8.5",
-    "react-dom": "^16.8.5",
+    "gatsby": "^2.24.51",
+    "gatsby-plugin-manifest": "^2.4.25",
+    "gatsby-plugin-offline": "^2.2.10",
+    "gatsby-plugin-react-helmet": "^3.3.10",
+    "gatsby-plugin-sass": "^2.3.12",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-helmet": "^5.2.0",
     "react-reveal": "^1.2.2",
     "react-scroll-to-element": "^0.2.0",
-    "react-scrollspy": "^3.3.5",
+    "react-scrollspy": "^3.4.3",
     "react-waypoint": "^8.0.3"
   },
   "keywords": [
@@ -29,7 +29,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.14.2"
+    "prettier": "^1.19.1"
   },
   "repository": {
     "type": "git",

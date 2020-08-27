@@ -1,11 +1,11 @@
 const { hot } = require("react-hot-loader/root")
 
 // prefer default export if available
-const preferDefault = m => m && m.default || m
+const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
-  "component---node-modules-gatsby-plugin-offline-app-shell-js": hot(preferDefault(require("/Users/keeganhelmbrecht/src/gatsby_port_2/node_modules/gatsby-plugin-offline/app-shell.js"))),
+  "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/keeganhelmbrecht/src/gatsby_port_2/.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("/Users/keeganhelmbrecht/src/gatsby_port_2/src/pages/404.js"))),
   "component---src-pages-cyberpunkquiz-js": hot(preferDefault(require("/Users/keeganhelmbrecht/src/gatsby_port_2/src/pages/cyberpunkquiz.js"))),
   "component---src-pages-euni-js": hot(preferDefault(require("/Users/keeganhelmbrecht/src/gatsby_port_2/src/pages/euni.js"))),
